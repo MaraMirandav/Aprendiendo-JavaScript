@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Ejemplo DOM con JavaScript</title>
+    <style>
+        .azul {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1" class="azul">Saludos!</p>
+    <p id="parrafo2" class="azul">Otro párrafo para hacer pruebas</p>
+    <script>
+        // Selecciona todos los <p> con clase 'azul'
+        let parrafos = document.querySelectorAll('p.azul');
+
+        console.log(`Número párrafos: ${parrafos.length}`)
+
+        // Recorre los elementos
+        for(let parrafo of parrafos) {
+            console.log(`${parrafo.innerHTML}`);
+        }
+    </script>
+</body>
+</html>

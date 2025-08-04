@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Ejemplo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1">Saludos!</p>
+    <p id="parrafo2">Otro párrafo para hacer pruebas</p>
+    <script>
+        //Obtiene todos los elementos <p> del documento y los guarda en la variable 'parrafos'
+        // Retorna una colección HTML (HTMLCollection) que se puede recorrer con un bucle
+        let parrafos = document.getElementsByTagName('p');
+
+        //Muestra en la consola cuántos elementos <p> hay en el documento
+        console.log(`Número párrafos: ${parrafos.length}`)
+
+        // Recorre los elementos <p>
+        for(let i = 0; i < parrafos.length; i++) {
+            console.log(`${i + 1} : ${parrafos[i].innerHTML}`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Ejemplo DOM con JavaScript</title>
+</head>
+<body>
+
+    <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo">Saludos!</p>
+    <script>
+    // Se obtiene el contenido del elemento <h1> con id="cabecero" usando innerHTML
+    // Esto devuelve la cadena "<h1>Ejemplo DOM con JavaScript</h1>", pero como usamos innerHTML directamente sobre el elemento, tomamos solo el texto interno
+    //Si quitamos el innerHTML devuelve [object HTMLHeadingElement]
+        let cabecero = document.getElementById('cabecero');
+
+        // Se obtiene el contenido del párrafo con id="parrafo", si quitamos el innerHTML: [object HTMLParagraphElement]
+        let parrafo = document.getElementById('parrafo');
+        console.log(`Valor cabecero: ${cabecero.innerHTML}`);
+        console.log(`Valor párrafo: ${parrafo.innerHTML}`);
+        console.log('Saludos desde JavaScript');
+        //El script se ubica después de los elementos HTML para evitar errores de referencia nula en el DOM
+
+        //Con innerHTML podemos modificar el contenido del texto:
+        parrafo.innerHTML = 'Nuevo valor del parrafo con innerHTML';
+        cabecero.innerHTML = 'Cambiando título de esta paginita con innerHTML';
+    </script>
+</body>
+</html>
