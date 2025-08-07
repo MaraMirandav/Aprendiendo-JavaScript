@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(70deg, #76bcebc7, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgb(189, 168, 239);
+    border-radius: 15px;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+article {
+    text-align: center;
+}
+
+#hora {
+    color:darkblue;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+#fecha {
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
