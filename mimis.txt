@@ -1,0 +1,158 @@
+../01 aprendiendo JavaScript
+├── 01 - Sección 2: Introducción a JavaScript
+│   └── 01-HolaMundo.js
+├── 02 - Sección 3: Variables en JavaScript
+│   ├── 01-Variables.js
+│   ├── 02-Tipos-Datos.js
+│   ├── 03-Hoisting.js
+│   └── 04-Constantes.js
+├── 03 - Sección 4: Operadores
+│   ├── 01-Operadores-Aritmeticos.js
+│   ├── 02-Operadores-Asignación.js
+│   ├── 03-Operadores-Comparación.js
+│   ├── 04-Operadores-logicos.js
+│   └── 05-Ejemplo-valor-dentro-rango.js
+├── 04 - Sección 5: Sentencias de decisión en JavaScript
+│   ├── 01-sentencia-if-elseif-else.js
+│   ├── 02-operador-ternario.js
+│   ├── 03-Ejemplo-mayor-edad.js
+│   └── 04-Ejemplo-dias-semana.js
+├── 05 - Sección 6: Ciclos en JavaScript
+│   ├── 01-ciclos.js
+│   ├── 02-Ejercicio-ciclos-3-en-3.js
+│   └── 03-Ejercicio-acumulador-suma.js
+├── 06 - Sección 7:Arreglos en JavaScript
+│   └── 01-arreglos.js
+├── 07 - Sección 8: Matrices en JavaScript
+│   └── 01-Matrices.js
+├── 08 - Sección 9: Funciones en JavaScript
+│   ├── 01-funciones.js
+│   ├── 02-ejemplo-procedimientos.js
+│   ├── 03-ejemplo-funciones.js
+│   ├── 04-ejemplo-paso-valor.js
+│   ├── 05-ejemplo-paso-referencia.js
+│   ├── 06-ejemplo-paso-cadenas.js
+│   ├── 07-alcance-variables.js
+│   └── 08-funciones-recursivas.js
+├── 09 - Sección 10: Funciones Incorporadas en JavaScript
+│   ├── 01-funciones-incorporadas.js
+│   ├── 02-subcadenas.js
+│   ├── 03-concatenacion-cadenas.js
+│   ├── 04-convertir-de-cadena-numero.js
+│   ├── 05-valor-absoluto.js
+│   └── 06-redondeo-truncado.js
+├── 10 - Sección 11: Objetos en JavaScript
+│   ├── 01-objetos.js
+│   ├── 02-acceder-propiedades-objetos.js
+│   ├── 03-agregar-eliminar-propiedades.js
+│   ├── 04-distintas-formas-imprimir.js
+│   ├── 05-metodos-get-set.js
+│   ├── 06-metodo-constructor.js
+│   ├── 07-distintas-formas-crear-objetos.js
+│   ├── 08-uso-prototype.js
+│   ├── 09-uso.call.js
+│   └── 10-metodo-apply.js
+├── 11 - Sección 12: Clases en JavaScript
+│   ├── 01-clases.js
+│   ├── 02-herencia.js
+│   ├── 03-sobreescritura.js
+│   └── 04-clase-object-sobrecarga-polimorfismo.js
+├── 12 - Sección 13: Palabra Static en Java Script
+│   ├── 01-static.js
+│   ├── 02-atributos-estaticos.js
+│   ├── 03-atributos-estativos -vs-no-estaticos.js
+│   ├── 04-ejemplo-static.js
+│   └── 05-constantes-estáticas.js
+├── 13 - Sección 14: Ejercicio Herencia en JavaScript
+│   ├── 01-clase-persona.js
+│   ├── 02-clase-empleado.js
+│   ├── 03-clase-cliente.js
+│   └── 04-ejercicio-herencia-pruebas.js
+├── 14 - Sección 15: Sistema de Ventas con JavaScript
+│   ├── 01-clase-producto.js
+│   ├── 02-clase-orden.js
+│   └── 03-ejercicio-sistema-ventas.js
+├── 15 - Sección 16: Proyecto Mundo PC con JavaScript
+│   ├── 01-clase-dispositivo-entrada.js
+│   ├── 02-clase-raton.js
+│   ├── 03-clase-teclado.js
+│   ├── 04-clase-monitor.js
+│   ├── 05-clase-computadora.js
+│   ├── 06-clase-orden.js
+│   └── 07-Mundo-PC-pruebas.js
+├── 16 - Sección 17: Modo Strict en JavaScript
+│   └── 01-mode-strict.js
+├── 17 - Sección 18: POO en JavaScript
+│   ├── 01-sobreescritura.js
+│   ├── 02-Polimorfismo.js
+│   └── 03-instanceof.js
+├── 18 - Sección 19: Manejo de Errores en JavaScript
+│   ├── 01-manejo-errores.js
+│   └── 02-uso-throw.js
+├── 19 - Sección 20: Funciones Flecha en JavaScript
+│   ├── 01-funciones-flecha.js
+│   └── 02-usos-funciones-flecha.js
+├── 20 - Sección 21: Funciones Callback en JavaScript
+│   ├── 01-funciones-callback.js
+│   ├── 02-funcion-setTimeout.js
+│   └── 03-funcion-setInterval.js
+├── 21 - Sección 22: Promesas en JavaScript
+│   ├── 01-promesas.js
+│   ├── 02-setTimeout-y-promesas.js
+│   ├── 03-async.js
+│   └── 04-promesas.async,await,settimeout.js
+├── 22 - Sección 23: Manejo del DOM con JavaScript
+│   ├── 01-manejo-del-dom.html
+│   ├── 02-manejo-del-dom.html
+│   ├── 03-manejo-del-dom.html
+│   ├── 04-manejo-del-dom.html
+│   ├── 05-manejo-formularios.html
+│   ├── 05.js
+│   ├── 06-manejo-del-dom.html
+│   ├── 06.js
+│   ├── 07-manejo-del-dom.html
+│   └── 07.js
+├── 23 - Sección 24: Manejo de Eventos en JavaScript
+│   ├── 01-manejo-eventos.html
+│   ├── 01.js
+│   ├── 02-evento-onload.html
+│   ├── 02.js
+│   ├── 03-evento-onchange.html
+│   ├── 03.js
+│   ├── 04-evento-onmousseover-out.html
+│   ├── 04.js
+│   ├── 05-evento-onmoussedown-up-onclick.html
+│   ├── 05.js
+│   ├── 06-evento-onfocus-onblur.html
+│   ├── 06.js
+│   ├── 07-listener.html
+│   ├── 07.js
+│   ├── 08-Delegacion-eventos.html
+│   └── 08.js
+├── 24 - Sección 25: Aplicación Calculadora con JavaScript y Bootstrap
+│   ├── 01-calculadora.html
+│   └── script.js
+├── 25 - Sección 26: Aplicación Listado de Personas con JavaScript
+│   ├── index.html
+│   ├── persona.js
+│   └── script.js
+├── 26 - Sección 27: Aplicación Reloj Digital con JavaScript
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── 27 - Sección 28: Aplicación Presupuesto con JavaScript
+│   ├── egreso.js
+│   ├── index.html
+│   ├── ingreso.js
+│   ├── presupuesto.js
+│   └── script.js
+├── mimis.txt
+├── README.md
+└── test
+    ├── ejemplo01.js
+    ├── ejemplo02.js
+    ├── test.html
+    ├── test.js
+    └── tests.js
+
+29 directories, 127 files

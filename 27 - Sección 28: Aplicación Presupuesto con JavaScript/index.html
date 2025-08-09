@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto 💵</title>
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body data-bs-theme="dark">
+    <div class="container m-auto text-center">
+        <!-- Parte principal del presupuesto -->
+        <div class="row mt-3">
+            <h2 class="fw-bold text-primary">Presupuesto Disponible:</h2>
+            <h1 id="total-presupuesto">0</h1>
+        </div>
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class="col d-block bg-body-tertiary p-2 me-2">
+                <span class="text-success-emphasis text-uppercase fw-bold mb-2 d-block">Ingresos</span>
+                <h4 id="total-ingreso">0</h4>
+            </div>
+            <div class="col d-block bg-body-tertiary p-2 ms-2">
+                <span class="text-danger-emphasis text-uppercase fw-bold mb-2 d-block">Egresos</span>
+                <h4 id="total-egreso">0</h4>
+            </div>
+        </div>
+        <!-- Formulario -->
+        <div class="row d-flex justify-content-center mt-3">
+            <!-- Selector -->
+            <div class="col-2">
+                <select class="form-select bg-body-tertiary" aria-label="Default select example" id="movimientos">
+                    <option id="opcion-ingreso" value="ingreso" selected>+</option>
+                    <option id="opcion-egreso" value="egreso">-</option>
+                </select>
+            </div>
+            <!-- Descripción -->
+            <div class="col-5">
+                <input class="form-control bg-body-tertiary" type="text" name="descripcion" id="descripcion" placeholder="Agregar Descripción">
+            </div>
+            <!-- Valor a ingresar -->
+            <div class="col-3">
+                <input class="form-control bg-body-tertiary" type="number" name="valor" id="valor" placeholder="Valor">
+            </div>
+            <!-- boton -->
+            <div class="col-2 align-self-start">
+                <button class="btn btn-outline-primary w-100" id="boton-agregar">OK</button>
+            </div>
+        </div>
+        <!-- Mensaje -->
+        <div class="row d-flex justify-content-center mt-3">
+            <div class="col" id="contenedor-mensaje"></div>
+        </div>
+        <!-- Tablas ingreso y egreso -->
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col table-responsive">
+                <table class="table table-striped table-responsive w-100">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-start text-success-emphasis text-uppercase fw-bold" colspan="4">Ingresos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-ingreso"></tbody>
+                </table>
+            </div>
+            <div class="col">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-start text-danger-emphasis text-uppercase fw-bold" colspan="4">Egresos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-egreso"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <!-- Scripts -->
+    <script src="./presupuesto.js" type="module"></script>
+    <script src="./ingreso.js" type="module"></script>
+    <script src="./egreso.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
