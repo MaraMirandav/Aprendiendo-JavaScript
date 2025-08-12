@@ -1,0 +1,35 @@
+{
+  "name": "01-aprendiendo-javascript",
+  "version": "1.0.0",
+  "description": "Ejercicios y proyectos del curso Universidad JavaScript -  Desde cero a Experto JavaScript (Udemy – Ing. Ubaldo Acosta)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraMirandav/Aprendiendo-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MaraMirandav/Aprendiendo-JavaScript/issues"
+  },
+  "homepage": "https://github.com/MaraMirandav/Aprendiendo-JavaScript#readme",
+  "dependencies": {
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,2 +1,6 @@
 #Carpeta de pruebas
 test/
+node_modules/
+
+#Otros archivos
+mimis.txt
